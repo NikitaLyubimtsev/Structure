@@ -17,6 +17,10 @@ fun main() {
                 val value: Int = Integer.parseInt(reader.readLine())
                 rbtree.add(value)
                 println("finish")
+                print("hasNext? Yes 1. Enter choice: ")
+                if (Integer.parseInt(reader.readLine()) == 1) {
+                    rbtree.remove(5)
+                }
             } catch (ignore: Exception) {
 
             }

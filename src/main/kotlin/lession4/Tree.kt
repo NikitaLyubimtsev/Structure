@@ -26,7 +26,7 @@ class Tree {
         return null
     }
 
-    private class Node(var value: Int) {
+    inner class Node(var value: Int) {
         lateinit var children: List<Node>
     }
 }
